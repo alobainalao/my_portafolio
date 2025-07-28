@@ -1,0 +1,43 @@
+.developer-container {
+    padding: 4vh 4vw;
+    text-align: center;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.developer-title {
+    display: flex; /* Hace que la imagen y el h2 estén en línea */
+    align-items: center; /* Centra verticalmente */
+    gap: 1rem; /* Espacio entre imagen y texto */
+    font-size: 1.5rem;
+    color: #222;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+    .developer-title h2 {
+        /* Opcional: que el h2 ocupe todo el espacio disponible */
+        flex-grow: 1;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .developer-container {
+        padding: 4vh 6vw;
+    }
+
+    .developer-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .developer-container {
+        padding: 3vh 4vw;
+    }
+
+    .developer-title {
+        font-size: 1.7rem;
+    }
+}

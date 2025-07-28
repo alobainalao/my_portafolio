@@ -1,0 +1,27 @@
+.about-container {
+    padding: 2vh 3vw;
+    max-width: 900px;
+    margin: 2vh auto 1vh auto;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.0rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    border-left: 6px solid #0077cc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .about-container:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+@media (max-width: 768px) {
+    .about-container {
+        font-size: 1rem;
+        padding: 2vh 3vw;
+        border-left: 4px solid #0077cc;
+    }
+}
